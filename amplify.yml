@@ -9,8 +9,7 @@ frontend:
         - npm run build
   artifacts:
     baseDirectory: dist/portalweb
-     files:
-      -'**/*'
+     files:      -'**/*'
   cache:
     paths:
       - node_modules/**/*
